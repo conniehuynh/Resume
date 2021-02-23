@@ -1,59 +1,188 @@
-body{
-    color: black;
-    background-image: url("https://lh3.googleusercontent.com/0qYBbuz_bsnS3SsQfImjteXmWjDzou8x-cLmpRFj_d9jM-qkiwIkth0WpvvSOCjDElNm0wrAC_JWc26mF5lHfouwHY_ar7MkcQiheXcQ-hjKVOHhjCYvQ9Uu0HdtpZ96-lKIoK5UataHcn9Dc07b_ak0Lz03EXHVEBX8DIajzLu5qSJSf3-NgEX9QuM8zoWVTGzSsPPvsTiPGIrxdYMpWPyZTaOpJ-jvYDk6IYtdtG8TAgCHgEt6GRJoIAmMQE9DX4EM4fQ5GRtzK46ggVoEk24P6aXIAYoWXrHdV9N0yvUYtuqORUU8BEmNk9qfHzmt7xCdfZUxKrCfvEn6PjMBJhkiGpOpMKNAT4nhW8XsK7qVCIzS1d-9MiRLH2oz0mdtBuSnllcta0UR2G7_60bxhEXNRE796Feo7YaWm2cEaMnyncC02yeRYz158i4oRP33VVkf5LiOfhCRGDHmcQD8DYa_HYR7LIUXjzjW_O9bmKudcIZMRROyiyPRun_iIh7qXe8Hc2M2TQFwbMAcWWeNcelrCqPCaF8BXWUyjFOMGKdIyr96qkbpNP0L7henXD8Qw6UolChbSgpwOiB-bgKllJDGsFr5tXxRZLLSqh6Ev0xsKuAu7lmT8GZS2KVJw4khREgxwYTyDAe2ChrDcg4B3wE1hKrHj3U7dQ_aFz8JAVGDoiF983Sob5ow0k-RfcGLR-ca-IBS_44joFKEDf9lmo4npXAivNmVolfDoqMCh70nHTQ=w1870-h1246-no");
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
-    
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
 }
 
-h1{
-    font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
-}
-h1.small{
-    font-variant: small-caps;
+.navbar {
+  padding: .8rem;
 }
 
-h3{
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
+.navbar-nav li {
+  padding-right: 20px;
 }
 
-p{
-    font-family: 'Times New Roman', Times, serif;
+.nav-link{
+  font-size: 1.1em !important;
 }
 
-#wrap {
-    width: 900px;
-    margin: 0 auto;
-    background-color: lavender;
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: lightblue;
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-li {
-    float: left;
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
 }
 
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: blue;
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
 }
 
-li a:hover {
-    background-color: gray;
+.btn-primary {
+  background-color: #6648B1;
+  border: 1px solid #6648B1;
 }
 
-.active {
-    background-color: lightgray;
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
 }
+
+.fa-instagram {
+  color: #517fa8;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-instagram:hover, 
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+
+.social a {
+  font-size: 2em;
+  padding: 0.5rem;
+}
+
+.about hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.resume hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.foodie hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.resume hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  /* background-color: #A0C4E2; */
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

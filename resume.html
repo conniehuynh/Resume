@@ -1,111 +1,260 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Connie Huynh</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
 </head>
-
 <body>
-    <div id="wrap">
-    <h1> RESUME</h1>
-    <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="resume.html">Resume</a></li>
-            <li><a href="blog.html">Photography</a></li>
-            <li><a href="cs108.html">CS108</a></li>
-        </ul>
-    <br><h3><b><u>Contact</u></b></h3>
-    <a href="https://www.linkedin.com/in/cohuynh/">LinkedIn</a>
-    <br><a href="https://github.com/conniehuynh">Github</a>
-    <br>connie.huynhh@gmail.com
-    <h3>
-        <b><u>Education</u></b>
-    </h3>
-    <p>
-        SAN JOSÉ STATE UNIVERSITY</p>
-    <p>
-        <i>Bacherlors of Science,</i> Computer Science
-    </p>
-    <h3>
-        <b><u>Coursework</u></b>
-    </h3>
-    <p>
-        Data Structures and Algorithms, Object Oriented Design, Computer Architecture, Programming Paradigms, Formal
-        Languages and Computability, Operating Systems, Database Management Systems, Server-side Web Programming,
-        Software Engineering, Discrete Math, Linear Algebra</p>
-    <h3>
-        <b><u>Skills</u></b>
-    </h3>
-    <p>
-        C, C++, Java, HTML, Adobe Xd CC, Adobe InDesign CC, Git, CSS
-    </p>
-    <h3>
-            <b><u>Work Experience</u></b>
-    </h3>
-    <br><b>Enginering Support Intern </b>
-    <br><i>CapsoVision, Inc., Saratoga, CA </i>
-    <br>
-        <br>Performed printed circuit boards and multi chip package testing
-        <br>Documented and drafted reports of tested hardware to help software engineering team understand type of bugs
-            encountered
-        <br>Recorded, tracked, and confirmed failed boards
-        <br>Executed validation and verification protocol for current tester firmware
-    <p>
-        <br><b>Math Tutor / Teaching Assistant</b>
-        <br><i>Yerba Buena High School, San Jose, CA</i>
-        <br>
-            <br>Taught high school students in courses such as geometry, algebra 1, algebra 2, math analysis, and
-                calculus
-            <br>Responsible for teaching 30 students every summer and improving overall grade by one letter with an
-                average grade of a B
-            <br>Assisted teacher by creating answer key and grading homework, quizzes, and tests
-    </p>
-    <p>
-        <h3>
-            <u>Projects</u>
-        </h3>
-        <b>Digital Circuits Turing Machine</b>
-        <br>Design and implement Universal Turing Machine (UTM) simulating digital circuits against any arbitrary
-                binary input using JFLAP
-        <br>Encode digital circuit by a string and put it on UTM’s tape
-        <br>Output 0 or 1 after encoded digital circuit is simulated by UTM
-        <br>
-        <br>
-        <b>Sudoku</b>
-            <br>Create a sudoku checker in C
-            <br>Check for valid and invalid sudoku puzzles
-            <br>Use threads to check each row, column, and square for duplicate or missing values
-            <br>Output location of duplicate or missing value if invalid sudoku puzzle 
-        <br>
-        <br>
-        <b>Tetris Project</b>
-            <br>Recreate Tetris game using object oriented design in Java
-            <br>Implemented a Model - View - Controller Architecture to develop the user interface of the project
-            <br>Responsible for coding the controller architecture of our Tetris projects
-            <br>Utilized GitKraken and Git to collaborate with a team of three
-        <br>
-        <br>
-        <b>32-Bit Process Simulation</b>
-            <br>Build a 32-bit processor and 256MB memory computer system in Verilog
-            <br>Implement basic logic gates and extend it to implement an arithmetic logic unit, control unit, register
-                file, and memory models
-            <br>Test each component through writing test benches and evaluating waves
-            <br>Run the processor simulation in DaVinci v1.0 system
-        <br>
-        <br>
-        <b>The Effect of Size and Ecology on Extinction Susceptibility </b>
-        <i><br>History of Life at Stanford University, Stanford, CA</i>
-            <br>Implemented R to organize a spreadsheet of hundreds of row of data to study five mass extinction
-                patterns
-            <br>Used logistical regression to display correlation between volume and biolength of survivors and victims
-            <br>Published three <a href="https://historyoflife.stanford.edu/people/connie-huynh">blogs</a> about my
-                overall experience on stanford.edu
-            <br>Inferred that ecology played more significant role in survival during mass extinctions
-            <br>Presented findings at the American Geophysical Union meeting on 12/2015 to hundreds of people
-        <img src="" />
-    </p>
-    <img src="" />
-</div>
-</body>
 
+<!-- Navigation -->
+<!-- referencing MD because that is the breakpoint for mobile -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#">CH</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="resume.html">Resume</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="foodie.html">Foodie</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Photography</a>
+				</li>
+			</ul>
+		</div>
+		<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button> -->
+	</div>
+</nav>
+
+<!-- Resume Title -->
+<div class="container-fluid padding">
+	<div class="row resume text-left">
+		<div class="col-12">
+			<h1 class="display-4">Resume</h1>
+		</div>
+        <hr>
+	</div>
+</div>
+
+<!-- Education Title -->
+<div class="container-fluid padding">
+	<div class="row resume text-left">
+		<div class="col-12">
+			<h2>Education</h2>
+            <p class="lead"> 
+                <br>San José State University
+                <br>Bachelors of Science, Computer Science 
+            </p>
+        </div>
+        <hr>
+	</div>
+</div>
+
+<!-- Projects Title -->
+<div class="container-fluid padding">
+	<div class="row resume text-left">
+		<!-- <div class="col-12">
+			<h2>Projects</h2>
+		</div> -->
+        <div class="col-12">
+            <h2>Projects</h2>
+            <p class="lead">
+                <br>Interviewee
+                <br> • Interview preparation web application for recent college graduates and employment seekers
+                <br> • Designing user interface (UI) in Figma and translating into web pages via React JavaScript and CSS
+                <br> • Storing user information in MongoDB
+                <br> 
+                <br>Website Blog 
+                <br> • Personal website blog that focuses on food related content
+                <br> • Designing user interface (UI) in Figma and translating into web pages via CSS and HTML
+                <br> • Embedding images, fonts, colors with CSS and formatted titles, headings, and paragraphs with HTML
+                <br> • Uploading repository through Git and hosting website on Github
+                <br> 
+                <br>Twiddit
+                <br> • Application to provide insight into the landscape of Twitter
+                <br> • Pulled Twitter dataset from pushshift.io and wrangled it through Python
+                <br> • Implemented user interface as Python command-line interface with PyMongo driver and stored data into MongoDB
+                <br> • Configured NoSQL through AWS consisting of 7 instance clusters distributing mongos, config, and shard server
+                <br> 
+                <br>Boba Meets 
+                <br> • Created a social meetup application in Android Studios and designed the user interface using XML and Java
+                <br> • Conceptualized and owned integration development of Google API to enable listing of every restaurant in proximity of two locations
+                <br> • Implemented SQL database to store user’s favorites
+                <br>
+                <br>Guyfro’s Quest For Gel 
+                <br> • Created original brawler game in Unity and C#
+                <br> • Implemented specific features such as character functionality, animations, sounds, score, and start/end screens 
+                <br>
+                <br> Flume Rides 
+                <br> • Created a university based ride sharing web application for students in React
+                <br> • Designed user interface (UI) web pages with CSS, React-MDL, Formik, and React-router-dom
+                <br> • Implemented NodeJS as the backend server and stored user’s information in MySQL
+                <br>
+                <br>Digital Circuits Turing Machine
+                <br> • Designed and implemented Universal Turing Machine (UTM) simulating digital circuits against any arbitrary binary input using JFLAP
+                <br> • Encoded digital circuit by a string and put it on UTM’s tape
+                <br> • Outputed 0 or 1 after encoded digital circuit is simulated by UTM
+                <br> 
+                <br>Sudoku
+                <br> • Created sudoku checker in C
+                <br> • Checked for valid and invalid sudoku puzzles
+                <br> • Used threads to check each row, column, and square for duplicate or missing values • Outputted location of duplicate or missing value if invalid sudoku puzzle
+                <br> 
+                <br>Tetris Project
+                <br> • Recreated Tetris game using object oriented design in Java
+                <br> • Implemented a Model - View - Controller Architecture to develop the user interface of the project • Responsible for coding the controller architecture of our Tetris projects
+                <br> 
+                <br> 32-Bit Processor Simulation
+                <br> • Built a 32-bit processor and 256MB memory computer system in Verilog
+                <br> • Implemented basic logic gates and extend it to implement an arithmetic logic unit, control unit, register file, and memory models
+                <br> • Tested each component through writing test benches and evaluating waves • Ran the processor simulation in DaVinci v1.0 system
+                <br> 
+                <br>The Effect of Size and Ecology on Extinction Susceptibility
+                <br>History of Life at Stanford University, Stanford, CA
+                <br> • Implemented R to organize a spreadsheet of hundreds of row of data to study five mass extinction patterns • Used logistical regression to display correlation between volume and biolength of survivors and victims
+                <br> • Inferred that ecology played more significant role in survival during mass extinctions
+            </p>
+        </div>
+        <hr>
+	</div>
+</div>
+
+<!-- Work Experience -->
+<div class="container-fluid padding">
+	<div class="row resume text-left">
+		<!-- <div class="col-12">
+			<h2>Work Experience</h2>
+		</div> -->
+        <div class="col-12">
+            <h2>Work Experience</h2>
+            <p class="lead">
+                <br>Support Engineer 
+                <br>CapsoVision, Inc., Saratoga, CA 
+                <br> • Collaborated with the manufacturer to produce 3-flash MCP, engineering team to update firmware, and Quality Assurance (QA) team to release updated MCP and firmware
+                <br> • Executed validation and verification protocol for current tester firmware
+                <br> • Systematically recorded, tracked, and validated failed boards
+                <br>
+                <br>Math Tutor / Teaching Assistant 
+                <br>Yerba Buena High School, San Jose, CA
+                <br> • Taught high school students in courses such as geometry, algebra 1, algebra 2, math analysis, and calculus
+                <br> • Responsible for teaching 30 students every summer and improving overall grade by one letter with an average grade of a B
+                <br> • Assisted teacher by creating answer key and grading homework, quizzes, and tests 
+                <br>
+                <br>Research Intern
+                <br>Stanford University, Stanford, CA
+                <br> • Collected data and used coding language R to organize and present data on fossils
+                <br> • Studied extinction patterns
+                <br> • Presented findings at the American Geophysical Union meeting
+            </p>
+        </div>
+        <hr>
+	</div>
+</div>
+
+<!-- Skills -->
+<div class="container-fluid padding">
+    <div class="row resume text-left">
+        <div class="col-12">
+            <h2>Skills </h2>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>Languages</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Java
+                <br> • JavaScript
+                <br> • HTML
+                <br> • CSS
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>Databases</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • NoSQL: MongoDB
+                <br> • SQL/MySQL 
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>Others</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • React
+                <br> • Figma
+            </p>
+        </div>
+        <hr>
+    </div>
+</div>
+
+<!-- Coursework  -->
+<div class="container-fluid padding">
+    <div class="row resume text-left">
+        <div class="col-12">
+            <h2>Coursework </h2>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>08/2016 - 05/2017</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Introduction to Programming
+                <br> • Introduction to Data Structures
+                <br> • Calculus III
+                <br> • Discrete Math
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>08/2017 - 05/2018</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Introduction to Computer System
+                <br> • Data Structures & Algorithms
+                <br> • Linear Algebra 
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>08/2018 - 05/2019</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Computer Architecture 
+                <br> • Object Oriented Design 
+                <br> • Operating Systems 
+                <br> • Programming Paradigms 
+                <br> • Formal Language and Computation 
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>08/2019 - 05/2020</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Introduction to Database Management Systems
+                <br> • Software engineering
+                <br> • Server Web Programming
+                <br> • Introduction to Game Studies
+                <br> • NoSQL
+                <br> • Mobile Device Development 
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
 </html>
