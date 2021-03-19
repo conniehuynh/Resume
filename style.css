@@ -65,9 +65,13 @@ html, body{
 .fa-youtube {
   color: #bb0000;
 }
+.fa-yelp {
+  color: #bb0000;
+}
 
 .fa-instagram:hover, 
-.fa-youtube:hover {
+.fa-youtube:hover,
+.fa-yelp:hover {
   color: #d5d5d5;
 }
 
