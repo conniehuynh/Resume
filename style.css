@@ -69,9 +69,15 @@ html, body{
   color: #bb0000;
 }
 
+.fa-github {
+  color: #000000;
+}
+
 .fa-instagram:hover, 
 .fa-youtube:hover,
-.fa-yelp:hover {
+.fa-yelp:hover,
+.fa-linkedin:hover,
+.fa-github:hover {
   color: #d5d5d5;
 }
 
@@ -95,6 +101,20 @@ html, body{
 }
 
 .foodie hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.art hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.photography hr {
   border-top: 2px solid #b4b4b4;
   width: 95%;
   margin-top: .3rem;
