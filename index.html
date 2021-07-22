@@ -15,28 +15,31 @@
 
 <!-- Navigation -->
 <!-- referencing MD because that is the breakpoint for mobile -->
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-md sticky-top">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="#">CH</a>
+    <a class="navbar-brand" style="color:#a2ce30" href="#">CONNIE HUYNH</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="index.html">Home</a>
+				<li class="nav-item">
+					<a class="nav-link" href="#education">Education</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="resume.html">Resume</a>
+					<a class="nav-link" href="#project">Project</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="foodie.html">Foodie</a>
+					<a class="nav-link" href="#work">Work Experience</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="#skills">Skills</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="art.html">Artwork</a>
+					<a class="nav-link" href="#course">Coursework</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="photography.html">Photography</a>
+                <li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -46,111 +49,286 @@
 	</div>
 </nav>
 
-<!--- Image Slider -->
-<div id="slides" class="carousel slide" data-ride="carousel">
-	<ul class="carousel-indicators">
-		<li data-target="#slides" data-slide-to="0" class="active"></li>
-		<li data-target="#slides" data-slide-to="1"></li>
-		<li data-target="#slides" data-slide-to="2"></li>
-	</ul>
-	<div class="carousel-inner">
-		<div class="carousel-item active">
-			<img src="img/cable.jpg">
-			<div class="carousel-caption">
-				<h1 class="display-2">Connie Huynh</h1>
-				<h3>Welcome to my blog!</h3>
-				<a href="resume.html" class="btn - btn-outline-light btn-lg active" role="button" aria-pressed="true">RESUME</a>
-				<a href="foodie.html" class="btn - btn-primary btn-lg active" role="button" aria-pressed="true">Foodie</a>
-				<!-- <button type="button" class="btn - btn-primary btn-lg ">Resume</button> -->
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="img/buddha.jpg">
-			<div class="carousel-caption">
-				<h1 class="display-2">Connie Huynh</h1>
-				<h3>Welcome to my blog!</h3>
-				<a href="resume.html" class="btn - btn-outline-light btn-lg active" role="button" aria-pressed="true">RESUME</a>
-				<a href="foodie.html" class="btn - btn-primary btn-lg active" role="button" aria-pressed="true">Foodie</a>
-				<!-- <button type="button" class="btn - btn-primary btn-lg ">Resume</button> -->
-			</div>
-		</div>
-		<div class="carousel-item">
-			<img src="img/bridge.jpg">
-			<div class="carousel-caption">
-				<h1 class="display-2">Connie Huynh</h1>
-				<h3>Welcome to my blog!</h3>
-				<a href="resume.html" class="btn - btn-outline-light btn-lg active" role="button" aria-pressed="true">RESUME</a>
-				<a href="foodie.html" class="btn - btn-primary btn-lg active" role="button" aria-pressed="true">Foodie</a>
-				<!-- <button type="button" class="btn - btn-primary btn-lg ">Resume</button> -->
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- About Me Title -->
+<!-- Resume Title -->
 <div class="container-fluid padding">
-	<div class="row about text-left">
+	<div class="row resume text-left" >
 		<div class="col-12">
-			<h1 class="display-4">About Me!</h1>
+			<h1 class="display-4">Resumé</h1>
 		</div>
-        <hr>
 	</div>
 </div>
 
-<!-- About Me Body (Two-column section) -->
-<div class="container-fluid padding">
-	<div class="row about padding">
-        <div class="col-lg-6 text-center">
-			<img src="img/mecrop.png" class="h-100 w-75 p-3 img-fluid">
-		</div>
-		<div class="col-lg-6">
-			<h2>Connie Huynh</h2>
-			<p>Computer scientist + aspiring artist
-			</p>
-            <div class="row text-left padding">
-                <div class="col-12 social padding">
-                    <a href="https://www.linkedin.com/in/cohuynh/"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/conniehuynh"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-			<p>HELLO EVERYONE! My name is Connie and I am a graduate of San Jose State University, majoring in Computer Science. I created this blog to incorporate my love for web development, food, photography, and drawing. Hopefully this blog illuminates my journey as a software engineer and artist. So, join me on my adventures! 
-			</p>
-		</div>
-		<hr>
+<!-- Education Title -->
+<a id="education">
+<div class="container-fluid padding blue-background">
+	<div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
+		<div class="col-12">
+			<h2>Education</h2>
+            <hr>
+            <p class="lead"> 
+                <br>
+                San José State University 
+                <br>
+                Bachelors of Science, Computer Science 
+            </p>
+        </div>
+        <!-- <hr> -->
 	</div>
 </div>
+</a>
+
+
+<!-- Projects Title -->
+<a id="project">
+<div class="container-fluid padding">
+	<div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
+		<!-- <div class="col-12">
+			<h2>Projects</h2>
+		</div> -->
+        <div class="col-12">
+            <h2>Projects</h2>
+            <hr>
+            <p class="lead">
+                <br><b style="font-size: 18px; font-weight: 700;">Interviewee</b>
+                <br><b style="font-size: 14px; font-weight: 700;">October 2020 - Present</b>
+                <br> • Interview preparation web application for recent college graduates and employment seekers
+                <br> • Designing user interface (UI) in Figma and translating into web pages via React JavaScript and CSS
+                <br> • Storing user information in MongoDB
+                <br> 
+                <br><b style="font-size: 18px; font-weight: 700;">Website Blog</b>
+                <br><b style="font-size: 14px; font-weight: 700;">May 2020 - Present</b> 
+                <br> • Personal website blog that focuses on food related content
+                <br> • Designing user interface (UI) in Figma and translating into web pages via CSS and HTML
+                <br> • Embedding images, fonts, colors with CSS and formatted titles, headings, and paragraphs with HTML
+                <br> • Uploading repository through Git and hosting website on Github
+                <br> 
+                <br><b style="font-size: 18px; font-weight: 700;">Twiddit</b>
+                <br><b style="font-size: 14px; font-weight: 700;">April 2020 - May 2020</b>
+                <br> • Application to provide insight into the landscape of Twitter
+                <br> • Pulled Twitter dataset from pushshift.io and wrangled it through Python
+                <br> • Implemented user interface as Python command-line interface with PyMongo driver and stored data into MongoDB
+                <br> • Configured NoSQL through AWS consisting of 7 instance clusters distributing mongos, config, and shard server
+                <br> 
+                <br><b style="font-size: 18px; font-weight: 700;">Boba Meets</b>
+                <br><b style="font-size: 14px; font-weight: 700;">March 2020 - May 2020</b> 
+                <br> • Created a social meetup application in Android Studios and designed the user interface using XML and Java
+                <br> • Conceptualized and owned integration development of Google API to enable listing of every restaurant in proximity of two locations
+                <br> • Implemented SQL database to store user’s favorites
+                <br>
+                <br><b style="font-size: 18px; font-weight: 700;">Guyfro's Quest for Gel</b>
+                <br><b style="font-size: 14px; font-weight: 700;">March 2020 - May 2020</b> 
+                <br> • Created original brawler game in Unity and C#
+                <br> • Implemented specific features such as character functionality, animations, sounds, score, and start/end screens 
+                <br>
+                <br><b style="font-size: 18px; font-weight: 700;">Flume Rides</b>
+                <br><b style="font-size: 14px; font-weight: 700;">August 2019 - December 2019</b> 
+                <br> • Created a university based ride sharing web application for students in React
+                <br> • Designed user interface (UI) web pages with CSS, React-MDL, Formik, and React-router-dom
+                <br> • Implemented NodeJS as the backend server and stored user’s information in MySQL
+                <br>
+                <br><b style="font-size: 18px; font-weight: 700;">Digital Circuits Turing Machine</b>
+                <br><b style="font-size: 14px; font-weight: 700;">April 2019 - May 2019</b> 
+                <br> • Designed and implemented Universal Turing Machine (UTM) simulating digital circuits against any arbitrary binary input using JFLAP
+                <br> • Encoded digital circuit by a string and put it on UTM’s tape
+                <br> • Outputted 0 or 1 after encoded digital circuit is simulated by UTM
+                <br> 
+                <br><b style="font-size: 18px; font-weight: 700;">Sudoku</b>
+                <br><b style="font-size: 14px; font-weight: 700;">April 2019</b> 
+                <br> • Created sudoku checker in C
+                <br> • Checked for valid and invalid sudoku puzzles
+                <br> • Used threads to check each row, column, and square for duplicate or missing values
+                <br> • Outputted location of duplicate or missing value if invalid sudoku puzzle
+                <br> 
+                <br><b style="font-size: 18px; font-weight: 700;">Tetris</b>
+                <br><b style="font-size: 14px; font-weight: 700;">October 2018 - December 2018</b> 
+                <br> • Recreated Tetris game using object oriented design in Java
+                <br> • Implemented a Model - View - Controller Architecture to develop the user interface of the project 
+                <br> • Responsible for coding the controller architecture of our Tetris projects
+                <br> 
+                <br><b style="font-size: 18px; font-weight: 700;">32-Bit Procesor Simulation</b>
+                <br><b style="font-size: 14px; font-weight: 700;">October 2018 - December 2018</b> 
+                <br> • Built a 32-bit processor and 256MB memory computer system in Verilog
+                <br> • Implemented basic logic gates and extend it to implement an arithmetic logic unit, control unit, register file, and memory models
+                <br> • Tested each component through writing test benches and evaluating waves 
+                <br> • Ran the processor simulation in DaVinci v1.0 system
+                <br> 
+                <br><b style="font-size: 18px; font-weight: 700;">The Effect of Size and Ecology on Extinction Susceptibility</b>
+                <br><b style="font-size: 14px; font-weight: 700;"><i>History of Life at Stanford University, Stanford, CA</i></b>
+                <br><b style="font-size: 14px; font-weight: 700;">June 2015 - July 2015</b>
+                <br> • Implemented R to organize a spreadsheet of hundreds of row of data to study five mass extinction patterns
+                <br> • Used logistical regression to display correlation between volume and biolength of survivors and victims
+                <br> • Inferred that ecology played more significant role in survival during mass extinctions
+            </p>
+        </div>
+        <!-- <hr> -->
+	</div>
+</div>
+</a>
+
+<!-- Work Experience -->
+<a id="work">
+<div class="container-fluid padding blue-background">
+	<div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
+		<!-- <div class="col-12">
+			<h2>Work Experience</h2>
+		</div> -->
+        <div class="col-12">
+            <h2>Work Experience</h2>
+            <hr>
+            <p class="lead">
+                <br><b style="font-size: 18px; font-weight: 700;">Support Engineer </b>
+                <br><b style="font-size: 14px; font-weight: 700;"><i>CapsoVision, Inc., Saratoga, CA</i> </b>
+                <br><b style="font-size: 14px; font-weight: 700;">December 2018 - Present </b>
+                <br> • Collaborated with the manufacturer to produce 3-flash MCP, engineering team to update firmware, and Quality Assurance (QA) team to release updated MCP and firmware
+                <br> • Executed validation and verification protocol for current tester firmware
+                <br> • Systematically recorded, tracked, and validated failed boards
+                <br>
+                <br><b style="font-size: 18px; font-weight: 700;">Math Tutor / Teaching Assistant </b>
+                <br><b style="font-size: 14px; font-weight: 700;"><i>Yerba Buena High School, San Jose, CA</i></b>
+                <br><b style="font-size: 14px; font-weight: 700;">June 2016 - July 2017 </b>
+                <br> • Taught high school students in courses such as geometry, algebra 1, algebra 2, math analysis, and calculus
+                <br> • Responsible for teaching 30 students every summer and improving overall grade by one letter with an average grade of a B
+                <br> • Assisted teacher by creating answer key and grading homework, quizzes, and tests 
+                <br>
+                <br><b style="font-size: 18px; font-weight: 700;">Research Intern</b>
+                <br><b style="font-size: 14px; font-weight: 700;"><i>Stanford University, Stanford, CA</i></b>
+                <br><b style="font-size: 14px; font-weight: 700;">June 2015 - July 2015 </b>
+                <br> • Collected data and used coding language R to organize and present data on fossils
+                <br> • Studied extinction patterns
+                <br> • Presented findings at the American Geophysical Union meeting
+            </p>
+        </div>
+        <!-- <hr> -->
+	</div>
+</div>
+</a>
+
+
+<!-- Skills -->
+<a id="skills">
+<div class="container-fluid padding">
+    <div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
+        <div class="col-12">
+            <h2>Skills </h2>
+            <hr>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>Languages</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Java
+                <br> • JavaScript
+                <br> • HTML
+                <br> • CSS
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>Databases</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • NoSQL: MongoDB
+                <br> • SQL/MySQL 
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>Others</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • React
+                <br> • Figma
+            </p>
+        </div>  
+    </div>
+</div>
+</a>
+
+<!-- Coursework  -->
+<a id="course">
+<div class="container-fluid padding blue-background">
+    <div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
+        <div class="col-12">
+            <a id="course"><h2>Coursework </h2></a>
+            <hr>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>08/2016 - 05/2017</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Introduction to Programming
+                <br> • Introduction to Data Structures
+                <br> • Calculus III
+                <br> • Discrete Math
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>08/2017 - 05/2018</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Introduction to Computer System
+                <br> • Data Structures & Algorithms
+                <br> • Linear Algebra 
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>08/2018 - 05/2019</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Computer Architecture 
+                <br> • Object Oriented Design 
+                <br> • Operating Systems 
+                <br> • Programming Paradigms 
+                <br> • Formal Language and Computation 
+            </p>
+        </div>
+        <div class="col-6 col-sm-3">
+            <h5>08/2019 - 05/2020</h5>
+			<hr class="light">
+            <p class="lead">
+                <br> • Introduction to Database Management Systems
+                <br> • Software engineering
+                <br> • Server Web Programming
+                <br> • Introduction to Game Studies
+                <br> • NoSQL
+                <br> • Mobile Device Development 
+            </p>
+        </div>
+        <!-- <hr> -->
+    </div>
+</div>
+</a>
 
 
 <!-- Footer -->
 <footer>
+    <a id="contact">
 	<div class="container-fluid padding">
-		<div class="row text-center">
-			<div class="col-md-4">
+		<div class="row text-center justify-content-center" style="display:flex">
+            <div class="col-md-4" style="flex-grow: 4">
 				<hr class="light">
 				<h5>Contact Me</h5>
 				<hr class="light">
-				<p>connie.huynhh@gmail.com</p>
+				<a href="#" style="color:#f8ab10">connie.huynhh@gmail.com</a>
+                <br>(408)893-6311
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-4" style="flex-grow: 4">
 				<hr class="light">
-				<h5>Socials</h5>
+				<h5>LinkedIn</h5>
 				<hr class="light">
-				<p>linkedin.com/in/cohuynh/</p>
-				<p>github.com/conniehuynh</p>
-			</div>
-			<div class="col-md-4">
+				<a href="https://www.linkedin.com/in/cohuynh/" style="color:#f8ab10">LinkedIn</a>
+            </div>
+            <div class="col-md-4" style="flex-grow: 4">
 				<hr class="light">
-				<h5>Dedication</h5>
+				<h5>GitHub</h5>
 				<hr class="light">
-				<p><i>For Thanh Huynh</i></p>
-				<p>July 1989 - December 2020</p>
+				<a href="https://github.com/conniehuynh" style="color:#f8ab10">GitHub</a>
 			</div>
 			<div class="col-12">
 				<hr class="light-100">
-				<h5>&copy; conniehuynh.github.io</h5>
+				<h5 style="color:#71747b">&copy; conniehuynh.github.io</h5>
 			</div>
 		</div>
 	</div>
+</a>
 </footer>
 
 </body>

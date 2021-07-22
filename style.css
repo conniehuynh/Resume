@@ -3,13 +3,26 @@
 html, body{
   height: 100%;
   width: 100%;
-  font-family: 'Poppins', sans-serif;
-  color: #222;
+  font-family: SuisseIntl, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  color: #8d9199;
+  background-color: #f9f9f9;
+}
+
+h2 {
+font-size: 36px;
+font-weight: 300;
+}
+
+div div {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .navbar {
   padding: .8rem;
+  background: #fff; 
 }
+
 
 .navbar-nav li {
   padding-right: 20px;
@@ -17,12 +30,38 @@ html, body{
 
 .nav-link{
   font-size: 1.1em !important;
+  font-family: Source Sans Pro,sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 15px;
+    line-height: 52px;
+    color: #676c73;
+}
+
+.nav-link:hover{
+  color: #a2ce30
 }
 
 /* changes the navbar link color (have to change in html to navbar-custom */
 .navbar-custom { 
-  background-color: #5688C7; 
+  background-color: #676c73; 
 } 
+
+.display-4 {
+  font-family: Source Sans Pro,sans-serif;
+}
+
+.blue-background {
+  background-color: #48c2d6;
+  color: #fff;
+}
+
+/* .blue-background hr {
+  border-top: 2px solid #f8ab10;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+} */
 
 
 .carousel-inner img {
@@ -50,107 +89,68 @@ html, body{
 }
 
 .btn-primary {
-  background-color: #6648B1;
-  border: 1px solid #6648B1;
+  background-color: #a2ce30;
+  border: 1px solid #a2ce30;
 }
 
 .btn-primary:hover {
-  background-color: #563d7c;
-  border: 1px solid #563d7c;
+  background-color: #a2ce30;
+  border: 1px solid #a2ce30;
 }
 
-.fa-instagram {
-  color: #517fa8;
-}
-.fa-youtube {
-  color: #bb0000;
-}
-.fa-yelp {
-  color: #bb0000;
-}
 
-.fa-github {
-  color: #000000;
-}
-
-.fa-instagram:hover, 
-.fa-youtube:hover,
-.fa-yelp:hover,
-.fa-linkedin:hover,
-.fa-github:hover {
-  color: #d5d5d5;
-}
 
 .social a {
   font-size: 2em;
   padding: 0.5rem;
 }
 
-.about hr {
-  border-top: 2px solid #b4b4b4;
+
+
+.resume hr {
+  border-top: 2px solid #a2ce30;
   width: 95%;
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
 
 .resume hr {
-  border-top: 2px solid #b4b4b4;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
-}
-
-.foodie hr {
-  border-top: 2px solid #b4b4b4;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
-}
-
-.art hr {
-  border-top: 2px solid #b4b4b4;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
-}
-
-.photography hr {
-  border-top: 2px solid #b4b4b4;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
-}
-
-.resume hr {
-  border-top: 2px solid #b4b4b4;
+  border-top: 2px solid #a2ce30;
   width: 95%;
   margin-top: .3rem;
   margin-bottom: 1rem;
 }
 
 footer {
-  background-color: #82A0BC;
-  color: #d5d5d5;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #3f464c;
   padding-top: 2rem;
 }
 hr.light {
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #a2ce30;
   width: 75%;
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
 
 footer a {
-  color: #d5d5d5;
+  color: #fff;
 }
 hr.light-100 {
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #a2ce30;
   width: 100%;
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
 
 
+.blue-background hr {
+  border-top: 2px solid #f8ab10;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
 
 
 
