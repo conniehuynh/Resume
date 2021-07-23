@@ -15,7 +15,7 @@
 
 <!-- Navigation -->
 <!-- referencing MD because that is the breakpoint for mobile -->
-<nav class="navbar navbar-expand-md sticky-top">
+<nav class="navbar navbar-expand-md sticky-top navbar-light">
 	<div class="container-fluid">
     <a class="navbar-brand" style="color:#a2ce30" href="#">CONNIE HUYNH</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
@@ -43,259 +43,273 @@
 				</li>
 			</ul>
 		</div>
-		<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button> -->
 	</div>
 </nav>
 
 <!-- Resume Title -->
-<div class="container-fluid padding">
-	<div class="row resume text-left" >
-		<div class="col-12">
-			<h1 class="display-4">Resumé</h1>
-		</div>
-	</div>
+<div class="container-fluid">
+    <div class="container padding">
+        <div class="row resume text-left" >
+            <div class="col-12">
+                <h1 class="display-4">Resumé</h1>
+            </div>
+        </div>
+    </div>
 </div>
 
+
 <!-- Education Title -->
-<a id="education">
-<div class="container-fluid padding blue-background">
-	<div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
-		<div class="col-12">
-			<h2>Education</h2>
-            <hr>
-            <p class="lead"> 
-                <br>
-                San José State University 
-                <br>
-                Bachelors of Science, Computer Science 
-            </p>
+<div class="container-fluid blue-background">
+    <a id="education">
+        <div class="container padding">
+            <div class="row resume text-left py-4">
+                <div class="col-12">
+                    <h2>Education</h2>
+                    <p class="lead"> 
+                        <br>
+                        San José State University 
+                        <br>
+                        Bachelors of Science, Computer Science 
+                    </p>
+                </div>
+            </div>
         </div>
-        <!-- <hr> -->
-	</div>
+        </a>
 </div>
-</a>
 
 
 <!-- Projects Title -->
-<a id="project">
-<div class="container-fluid padding">
-	<div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
-		<!-- <div class="col-12">
-			<h2>Projects</h2>
-		</div> -->
-        <div class="col-12">
-            <h2>Projects</h2>
-            <hr>
-            <p class="lead">
-                <br><b style="font-size: 18px; font-weight: 700;">Interviewee</b>
-                <br><b style="font-size: 14px; font-weight: 700;">October 2020 - Present</b>
-                <br> • Interview preparation web application for recent college graduates and employment seekers
-                <br> • Designing user interface (UI) in Figma and translating into web pages via React JavaScript and CSS
-                <br> • Storing user information in MongoDB
-                <br> 
-                <br><b style="font-size: 18px; font-weight: 700;">Website Blog</b>
-                <br><b style="font-size: 14px; font-weight: 700;">May 2020 - Present</b> 
-                <br> • Personal website blog that focuses on food related content
-                <br> • Designing user interface (UI) in Figma and translating into web pages via CSS and HTML
-                <br> • Embedding images, fonts, colors with CSS and formatted titles, headings, and paragraphs with HTML
-                <br> • Uploading repository through Git and hosting website on Github
-                <br> 
-                <br><b style="font-size: 18px; font-weight: 700;">Twiddit</b>
-                <br><b style="font-size: 14px; font-weight: 700;">April 2020 - May 2020</b>
-                <br> • Application to provide insight into the landscape of Twitter
-                <br> • Pulled Twitter dataset from pushshift.io and wrangled it through Python
-                <br> • Implemented user interface as Python command-line interface with PyMongo driver and stored data into MongoDB
-                <br> • Configured NoSQL through AWS consisting of 7 instance clusters distributing mongos, config, and shard server
-                <br> 
-                <br><b style="font-size: 18px; font-weight: 700;">Boba Meets</b>
-                <br><b style="font-size: 14px; font-weight: 700;">March 2020 - May 2020</b> 
-                <br> • Created a social meetup application in Android Studios and designed the user interface using XML and Java
-                <br> • Conceptualized and owned integration development of Google API to enable listing of every restaurant in proximity of two locations
-                <br> • Implemented SQL database to store user’s favorites
-                <br>
-                <br><b style="font-size: 18px; font-weight: 700;">Guyfro's Quest for Gel</b>
-                <br><b style="font-size: 14px; font-weight: 700;">March 2020 - May 2020</b> 
-                <br> • Created original brawler game in Unity and C#
-                <br> • Implemented specific features such as character functionality, animations, sounds, score, and start/end screens 
-                <br>
-                <br><b style="font-size: 18px; font-weight: 700;">Flume Rides</b>
-                <br><b style="font-size: 14px; font-weight: 700;">August 2019 - December 2019</b> 
-                <br> • Created a university based ride sharing web application for students in React
-                <br> • Designed user interface (UI) web pages with CSS, React-MDL, Formik, and React-router-dom
-                <br> • Implemented NodeJS as the backend server and stored user’s information in MySQL
-                <br>
-                <br><b style="font-size: 18px; font-weight: 700;">Digital Circuits Turing Machine</b>
-                <br><b style="font-size: 14px; font-weight: 700;">April 2019 - May 2019</b> 
-                <br> • Designed and implemented Universal Turing Machine (UTM) simulating digital circuits against any arbitrary binary input using JFLAP
-                <br> • Encoded digital circuit by a string and put it on UTM’s tape
-                <br> • Outputted 0 or 1 after encoded digital circuit is simulated by UTM
-                <br> 
-                <br><b style="font-size: 18px; font-weight: 700;">Sudoku</b>
-                <br><b style="font-size: 14px; font-weight: 700;">April 2019</b> 
-                <br> • Created sudoku checker in C
-                <br> • Checked for valid and invalid sudoku puzzles
-                <br> • Used threads to check each row, column, and square for duplicate or missing values
-                <br> • Outputted location of duplicate or missing value if invalid sudoku puzzle
-                <br> 
-                <br><b style="font-size: 18px; font-weight: 700;">Tetris</b>
-                <br><b style="font-size: 14px; font-weight: 700;">October 2018 - December 2018</b> 
-                <br> • Recreated Tetris game using object oriented design in Java
-                <br> • Implemented a Model - View - Controller Architecture to develop the user interface of the project 
-                <br> • Responsible for coding the controller architecture of our Tetris projects
-                <br> 
-                <br><b style="font-size: 18px; font-weight: 700;">32-Bit Procesor Simulation</b>
-                <br><b style="font-size: 14px; font-weight: 700;">October 2018 - December 2018</b> 
-                <br> • Built a 32-bit processor and 256MB memory computer system in Verilog
-                <br> • Implemented basic logic gates and extend it to implement an arithmetic logic unit, control unit, register file, and memory models
-                <br> • Tested each component through writing test benches and evaluating waves 
-                <br> • Ran the processor simulation in DaVinci v1.0 system
-                <br> 
-                <br><b style="font-size: 18px; font-weight: 700;">The Effect of Size and Ecology on Extinction Susceptibility</b>
-                <br><b style="font-size: 14px; font-weight: 700;"><i>History of Life at Stanford University, Stanford, CA</i></b>
-                <br><b style="font-size: 14px; font-weight: 700;">June 2015 - July 2015</b>
-                <br> • Implemented R to organize a spreadsheet of hundreds of row of data to study five mass extinction patterns
-                <br> • Used logistical regression to display correlation between volume and biolength of survivors and victims
-                <br> • Inferred that ecology played more significant role in survival during mass extinctions
-            </p>
+<div class="container-fluid">
+    <a id="project">
+        <div class="container padding">
+            <div class="row resume text-left py-4">
+                <div class="col-12">
+                    <h2>Projects</h2>
+                    <p class="lead">
+                        <br><b style="font-size: 18px; font-weight: 700;">Interviewee</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">October 2020 - Present</b>
+                        <ul>
+                            <li>Interview preparation web application for recent college graduates and employment seekers</li>
+                            <li>Designing user interface (UI) in Figma and translating into web pages via React JavaScript and CSS</li>
+                            <li>Storing user information in MongoDB</li>
+                        </ul>
+                        <br><b style="font-size: 18px; font-weight: 700;">Website Blog</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">May 2020 - Present</b> 
+                        <ul>
+                            <li>Personal website blog that focuses on food related content</li>
+                            <li>Designing user interface (UI) in Figma and translating into web pages via CSS and HTML</li>
+                            <li>Embedding images, fonts, colors with CSS and formatted titles, headings, and paragraphs with HTML</li>
+                            <li>Uploading repository through Git and hosting website on GitHub</li>
+                        </ul>
+                        <br><b style="font-size: 18px; font-weight: 700;">Twiddit</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">April 2020 - May 2020</b>
+                        <ul>
+                            <li>Application to provide insight into the landscape of Twitter</li>
+                            <li>Pulled Twitter dataset from pushshift.io and wrangled it through Python</li>
+                            <li>Implemented user interface as Python command-line interface with PyMongo driver and stored data into MongoDB</li>
+                            <li>Configured NoSQL through AWS consisting of 7 instance clusters distributing mongos, config, and shard server</li>
+                        </ul>
+                        <br><b style="font-size: 18px; font-weight: 700;">Boba Meets</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">March 2020 - May 2020</b>
+                        <ul>
+                            <li>Created a social meetup application in Android Studios and designed the user interface using XML and Java</li>
+                            <li>Conceptualized and owned integration development of Google API to enable listing of every restaurant in proximity of two locations</li>
+                            <li>Implemented SQL database to store user’s favorites</li>
+                        </ul> 
+                        <br><b style="font-size: 18px; font-weight: 700;">Guyfro's Quest for Gel</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">March 2020 - May 2020</b>
+                        <ul>
+                            <li>Created original brawler game in Unity and C#</li>
+                            <li>Implemented specific features such as character functionality, animations, sounds, score, and start/end screens </li>
+                        </ul> 
+                        <br><b style="font-size: 18px; font-weight: 700;">Flume Rides</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">August 2019 - December 2019</b> 
+                        <ul>
+                            <li>Created a university based ride sharing web application for students in React</li>
+                            <li>Designed user interface (UI) web pages with CSS, React-MDL, Formik, and React-router-dom</li>
+                            <li>Implemented NodeJS as the backend server and stored user’s information in MySQL</li>
+                        </ul>
+                        <br><b style="font-size: 18px; font-weight: 700;">Digital Circuits Turing Machine</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">April 2019 - May 2019</b>
+                        <ul>
+                            <li>Designed and implemented Universal Turing Machine (UTM) simulating digital circuits against any arbitrary binary input using JFLAP</li>
+                            <li>Encoded digital circuit by a string and put it on UTM’s tape</li>
+                            <li>Outputted 0 or 1 after encoded digital circuit is simulated by UTM</li>
+                        </ul> 
+                        <br><b style="font-size: 18px; font-weight: 700;">Sudoku</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">April 2019</b>
+                        <ul>
+                            <li>Created sudoku checker in C</li>
+                            <li>Checked for valid and invalid sudoku puzzles</li>
+                            <li>Used threads to check each row, column, and square for duplicate or missing values</li>
+                            <li>Outputted location of duplicate or missing value if invalid sudoku puzzle</li>
+                        </ul> 
+                        <br><b style="font-size: 18px; font-weight: 700;">Tetris</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">October 2018 - December 2018</b>
+                        <ul>
+                            <li>Recreated Tetris game using object oriented design in Java</li>
+                            <li>Implemented a Model - View - Controller Architecture to develop the user interface of the project </li>
+                            <li>Responsible for coding the controller architecture of our Tetris projects</li>
+                        </ul> 
+                        <br><b style="font-size: 18px; font-weight: 700;">32-Bit Procesor Simulation</b>
+                        <br><b style="font-size: 14px; font-weight: 700;">October 2018 - December 2018</b>
+                        <ul>
+                            <li>Built a 32-bit processor and 256MB memory computer system in Verilog</li>
+                            <li>Implemented basic logic gates and extend it to implement an arithmetic logic unit, control unit, register file, and memory models</li>
+                            <li>Tested each component through writing test benches and evaluating waves </li>
+                            <li>Ran the processor simulation in DaVinci v1.0 system</li>
+                        </ul> 
+                        <br><b style="font-size: 18px; font-weight: 700;">The Effect of Size and Ecology on Extinction Susceptibility</b>
+                        <br><b style="font-size: 14px; font-weight: 700;"><i>History of Life at Stanford University, Stanford, CA</i></b>
+                        <br><b style="font-size: 14px; font-weight: 700;">June 2015 - July 2015</b>
+                        <ul>
+                            <li>Implemented R to organize a spreadsheet of hundreds of row of data to study five mass extinction patterns</li>
+                            <li>Used logistical regression to display correlation between volume and biolength of survivors and victims</li>
+                            <li>Inferred that ecology played more significant role in survival during mass extinctions</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
         </div>
-        <!-- <hr> -->
-	</div>
+        </a>
 </div>
-</a>
 
 <!-- Work Experience -->
-<a id="work">
-<div class="container-fluid padding blue-background">
-	<div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
-		<!-- <div class="col-12">
-			<h2>Work Experience</h2>
-		</div> -->
-        <div class="col-12">
-            <h2>Work Experience</h2>
-            <hr>
-            <p class="lead">
-                <br><b style="font-size: 18px; font-weight: 700;">Support Engineer </b>
-                <br><b style="font-size: 14px; font-weight: 700;"><i>CapsoVision, Inc., Saratoga, CA</i> </b>
-                <br><b style="font-size: 14px; font-weight: 700;">December 2018 - Present </b>
-                <br> • Collaborated with the manufacturer to produce 3-flash MCP, engineering team to update firmware, and Quality Assurance (QA) team to release updated MCP and firmware
-                <br> • Executed validation and verification protocol for current tester firmware
-                <br> • Systematically recorded, tracked, and validated failed boards
-                <br>
-                <br><b style="font-size: 18px; font-weight: 700;">Math Tutor / Teaching Assistant </b>
-                <br><b style="font-size: 14px; font-weight: 700;"><i>Yerba Buena High School, San Jose, CA</i></b>
-                <br><b style="font-size: 14px; font-weight: 700;">June 2016 - July 2017 </b>
-                <br> • Taught high school students in courses such as geometry, algebra 1, algebra 2, math analysis, and calculus
-                <br> • Responsible for teaching 30 students every summer and improving overall grade by one letter with an average grade of a B
-                <br> • Assisted teacher by creating answer key and grading homework, quizzes, and tests 
-                <br>
-                <br><b style="font-size: 18px; font-weight: 700;">Research Intern</b>
-                <br><b style="font-size: 14px; font-weight: 700;"><i>Stanford University, Stanford, CA</i></b>
-                <br><b style="font-size: 14px; font-weight: 700;">June 2015 - July 2015 </b>
-                <br> • Collected data and used coding language R to organize and present data on fossils
-                <br> • Studied extinction patterns
-                <br> • Presented findings at the American Geophysical Union meeting
-            </p>
+<div class="container-fluid blue-background">
+    <a id="work">
+    <div class="container padding">
+        <div class="row resume text-left py-4">
+            <div class="col-12">
+                <h2>Work Experience</h2>
+                <p class="lead">
+                    <br><b style="font-size: 18px; font-weight: 700;">Support Engineer </b>
+                    <br><b style="font-size: 14px; font-weight: 700;"><i>CapsoVision, Inc., Saratoga, CA</i> </b>
+                    <br><b style="font-size: 14px; font-weight: 700;">December 2018 - Present </b>
+                    <ul>
+                        <li>Collaborated with the manufacturer to produce 3-flash MCP, engineering team to update firmware, and Quality Assurance (QA) team to release updated MCP and firmware</li>
+                        <li>Executed validation and verification protocol for current tester firmware</li>
+                        <li>Systematically recorded, tracked, and validated failed boards</li>
+                    </ul>
+                    <br><b style="font-size: 18px; font-weight: 700;">Math Tutor / Teaching Assistant </b>
+                    <br><b style="font-size: 14px; font-weight: 700;"><i>Yerba Buena High School, San Jose, CA</i></b>
+                    <br><b style="font-size: 14px; font-weight: 700;">June 2016 - July 2017 </b>
+                    <ul>
+                        <li>Taught high school students in courses such as geometry, algebra 1, algebra 2, math analysis, and calculus</li>
+                        <li>Responsible for teaching 30 students every summer and improving overall grade by one letter with an average grade of a B</li>
+                        <li>Assisted teacher by creating answer key and grading homework, quizzes, and tests </li>
+                    </ul>
+                    <br><b style="font-size: 18px; font-weight: 700;">Research Intern</b>
+                    <br><b style="font-size: 14px; font-weight: 700;"><i>Stanford University, Stanford, CA</i></b>
+                    <br><b style="font-size: 14px; font-weight: 700;">June 2015 - July 2015 </b>
+                    <ul>
+                        <li>Collected data and used coding language R to organize and present data on fossils</li>
+                        <li>Studied extinction patterns</li>
+                        <li>Presented findings at the American Geophysical Union meeting</li>
+                    </ul>
+                </p>
+            </div>
+            <!-- <hr> -->
         </div>
-        <!-- <hr> -->
-	</div>
+    </div>
+    </a>
 </div>
-</a>
 
 
 <!-- Skills -->
-<a id="skills">
-<div class="container-fluid padding">
-    <div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
-        <div class="col-12">
-            <h2>Skills </h2>
-            <hr>
+<div class="container-fluid">
+    <a id="skills">
+    <div class="container padding">
+        <div class="row resume text-left py-4">
+            <div class="col-12">
+                <h2>Skills </h2>
+            </div>
+            <div class="col-6 col-sm-3">
+                <h5>Languages</h5>
+                <hr class="light">
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Java</li>
+                    <li>JavaScript (React)</li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-3">
+                <h5>Databases</h5>
+                <hr class="light">
+                <ul>
+                    <li>SQL/MySQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-3">
+                <h5>Others</h5>
+                <hr class="light">
+                <ul>
+                    <li>Adobe XD</li>
+                    <li>Figma</li>
+                    <li>Bootstrap</li>
+                    <li>Github</li>
+                </ul>
+            </div>  
         </div>
-        <div class="col-6 col-sm-3">
-            <h5>Languages</h5>
-			<hr class="light">
-            <p class="lead">
-                <br> • Java
-                <br> • JavaScript
-                <br> • HTML
-                <br> • CSS
-            </p>
-        </div>
-        <div class="col-6 col-sm-3">
-            <h5>Databases</h5>
-			<hr class="light">
-            <p class="lead">
-                <br> • NoSQL: MongoDB
-                <br> • SQL/MySQL 
-            </p>
-        </div>
-        <div class="col-6 col-sm-3">
-            <h5>Others</h5>
-			<hr class="light">
-            <p class="lead">
-                <br> • React
-                <br> • Figma
-            </p>
-        </div>  
     </div>
+    </a>
 </div>
-</a>
 
 <!-- Coursework  -->
-<a id="course">
-<div class="container-fluid padding blue-background">
-    <div class="row resume text-left" style="padding-top:2%; padding-bottom: 2%">
-        <div class="col-12">
-            <a id="course"><h2>Coursework </h2></a>
-            <hr>
+<div class="container-fluid blue-background">
+    <a id="course">
+    <div class="container padding">
+        <div class="row resume text-left py-4">
+            <div class="col-12">
+                <a id="course"><h2>Coursework </h2></a>
+            </div>
+            <div class="col-6 col-sm-3">
+                <h5>08/2016 - 05/2017</h5>
+                <hr class="light">
+                <ul>
+                    <li>Introduction to Programming</li>
+                    <li>Introduction to Data Structures</li>
+                    <li>Calculus III</li>
+                    <li>Discrete Math</li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-3">
+                <h5>08/2017 - 05/2018</h5>
+                <hr class="light">
+                <ul>
+                    <li>Introduction to Computer Science</li>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Linear Algebra</li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-3">
+                <h5>08/2018 - 05/2019</h5>
+                <hr class="light">
+                <ul>
+                    <li>Computer Architecture</li>
+                    <li>Object Oriented Design</li>
+                    <li>Operating Systems</li>
+                    <li>Programming Paradigms</li>
+                    <li>Formal Language and Computation</li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-3">
+                <h5>08/2019 - 05/2020</h5>
+                <hr class="light">
+                <ul>
+                    <li>Introduction to Database Management Systems</li>
+                    <li>Software Engineering</li>
+                    <li>Server-side Web Programming</li>
+                    <li>Introduction to Game Studies</li>
+                    <li>NoSQL</li>
+                    <li>Mobile Device Development</li>
+                </ul>
+            </div>
+            <!-- <hr> -->
         </div>
-        <div class="col-6 col-sm-3">
-            <h5>08/2016 - 05/2017</h5>
-			<hr class="light">
-            <p class="lead">
-                <br> • Introduction to Programming
-                <br> • Introduction to Data Structures
-                <br> • Calculus III
-                <br> • Discrete Math
-            </p>
-        </div>
-        <div class="col-6 col-sm-3">
-            <h5>08/2017 - 05/2018</h5>
-			<hr class="light">
-            <p class="lead">
-                <br> • Introduction to Computer System
-                <br> • Data Structures & Algorithms
-                <br> • Linear Algebra 
-            </p>
-        </div>
-        <div class="col-6 col-sm-3">
-            <h5>08/2018 - 05/2019</h5>
-			<hr class="light">
-            <p class="lead">
-                <br> • Computer Architecture 
-                <br> • Object Oriented Design 
-                <br> • Operating Systems 
-                <br> • Programming Paradigms 
-                <br> • Formal Language and Computation 
-            </p>
-        </div>
-        <div class="col-6 col-sm-3">
-            <h5>08/2019 - 05/2020</h5>
-			<hr class="light">
-            <p class="lead">
-                <br> • Introduction to Database Management Systems
-                <br> • Software engineering
-                <br> • Server Web Programming
-                <br> • Introduction to Game Studies
-                <br> • NoSQL
-                <br> • Mobile Device Development 
-            </p>
-        </div>
-        <!-- <hr> -->
     </div>
+    </a>
 </div>
-</a>
 
 
 <!-- Footer -->
@@ -307,21 +321,16 @@
 				<hr class="light">
 				<h5>Contact Me</h5>
 				<hr class="light">
-				<a href="#" style="color:#f8ab10">connie.huynhh@gmail.com</a>
+				<a href="mailto:connie.huynhh@gmail.com" style="color:#f8ab10">connie.huynhh@gmail.com</a>
                 <br>(408)893-6311
 			</div>
 			<div class="col-md-4" style="flex-grow: 4">
 				<hr class="light">
-				<h5>LinkedIn</h5>
+				<h5>Socials</h5>
 				<hr class="light">
 				<a href="https://www.linkedin.com/in/cohuynh/" style="color:#f8ab10">LinkedIn</a>
+                <br><a href="https://github.com/conniehuynh" style="color:#f8ab10">GitHub</a>
             </div>
-            <div class="col-md-4" style="flex-grow: 4">
-				<hr class="light">
-				<h5>GitHub</h5>
-				<hr class="light">
-				<a href="https://github.com/conniehuynh" style="color:#f8ab10">GitHub</a>
-			</div>
 			<div class="col-12">
 				<hr class="light-100">
 				<h5 style="color:#71747b">&copy; conniehuynh.github.io</h5>

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-/* random comment edit on css */
+
 html, body{
   height: 100%;
   width: 100%;
@@ -13,10 +13,6 @@ font-size: 36px;
 font-weight: 300;
 }
 
-div div {
-  padding-left: 10%;
-  padding-right: 10%;
-}
 
 .navbar {
   padding: .8rem;
@@ -52,16 +48,9 @@ div div {
 }
 
 .blue-background {
-  background-color: #48c2d6;
+  background-color: #a2ce30;
   color: #fff;
 }
-
-/* .blue-background hr {
-  border-top: 2px solid #f8ab10;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
-} */
 
 
 .carousel-inner img {
@@ -107,19 +96,10 @@ div div {
 
 
 
-.resume hr {
-  border-top: 2px solid #a2ce30;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
+hr {
+  border-top: 2px solid #cccccc;
 }
 
-.resume hr {
-  border-top: 2px solid #a2ce30;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
-}
 
 footer {
   background-color: #f9f9f9;
@@ -128,10 +108,7 @@ footer {
   padding-top: 2rem;
 }
 hr.light {
-  border-top: 1px solid #a2ce30;
-  width: 75%;
-  margin-top: .8rem;
-  margin-bottom: 1rem;
+  border-top: 1px solid #cccccc;
 }
 
 footer a {
@@ -143,16 +120,6 @@ hr.light-100 {
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
-
-
-.blue-background hr {
-  border-top: 2px solid #f8ab10;
-  width: 95%;
-  margin-top: .3rem;
-  margin-bottom: 1rem;
-}
-
-
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
