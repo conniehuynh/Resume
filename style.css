@@ -40,7 +40,7 @@ h5 {
 }
 
 .nav-link:hover{
-  color: #a2ce30
+  color: #5dd0f9
 }
 
 /* changes the navbar link color (have to change in html to navbar-custom */
@@ -53,7 +53,7 @@ h5 {
 }
 
 .blue-background {
-  background-color: #a2ce30;
+  background-color: #5dd0f9;
   color: #fff;
 }
 
@@ -83,13 +83,13 @@ h5 {
 }
 
 .btn-primary {
-  background-color: #a2ce30;
-  border: 1px solid #a2ce30;
+  background-color: #5dd0f9;
+  border: 1px solid #5dd0f9;
 }
 
 .btn-primary:hover {
-  background-color: #a2ce30;
-  border: 1px solid #a2ce30;
+  background-color: #5dd0f9;
+  border: 1px solid #5dd0f9;
 }
 
 
@@ -120,7 +120,7 @@ footer a {
   color: #fff;
 }
 hr.light-100 {
-  border-top: 1px solid #a2ce30;
+  border-top: 1px solid #5dd0f9;
   width: 100%;
   margin-top: .8rem;
   margin-bottom: 1rem;
